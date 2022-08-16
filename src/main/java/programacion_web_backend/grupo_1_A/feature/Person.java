@@ -24,4 +24,5 @@ public class Person {
     private boolean disability;
     @Column("disability_percent")
     private float disabilityPercent;
+    private boolean archived; 
 }
